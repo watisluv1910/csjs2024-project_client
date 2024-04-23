@@ -5,7 +5,6 @@ import com.wladischlau.polling_stations_service.service.StationService;
 import com.wladischlau.service.model.StationInfo;
 import com.wladischlau.service.model.StationList;
 import com.wladischlau.service.model.StationListRegionsInner;
-import jakarta.validation.Path;
 import jakarta.validation.constraints.Positive;
 import org.springframework.shell.standard.ShellComponent;
 import org.springframework.shell.standard.ShellMethod;
