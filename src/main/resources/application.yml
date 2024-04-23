@@ -1,1 +1,8 @@
-spring.application.name=polling_stations_service
+spring:
+  application:
+    name: polling_stations_service
+  mustache:
+    check-template-location: false
+
+server:
+  port: 9090

@@ -31,3 +31,7 @@ build/
 
 ### VS Code ###
 .vscode/
+
+polling_stations_service.log
+spring-shell.log
+/data/**
