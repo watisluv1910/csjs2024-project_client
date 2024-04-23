@@ -34,24 +34,22 @@
 ### Порядок запуска
 
 1. Для корректной работы приложения в тестовом (локальном) режиме, необходимо
-сначала локально (или в docker) запустить **тестовое API**.
-[Ссылка]() на инструкцию по запуску. В зависимости от настроек тестового API,
-может появится необходимость изменить порт, на котором запускается 
+**сначала** локально (или в docker) запустить [**тестовое API**](https://github.com/watisluv1910/csjs2024-project_test-api) в Development Mode. 
+В зависимости от настроек тестового API, может появится необходимость изменить порт, на котором запускается 
 клиент или хост, и/или порт, на который он отправляет запросы.
 **Такие изменения должны оставаться локальными!**
 
 2. Клонировать репозиторий с проектом:
     ```shell
    git clone https://github.com/watisluv1910/csjs2024-project_service.git
-   cd polling_stations_service
     ```
 
-3. Установить [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) > v21.0.0.
-4. Запустить следующую команду в корневой директории проекта:
+3. Установить [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) > v21.0.0, если таковой не имеется.
+4. Запустить следующую команду в **корневой директории** проекта:
     ```shell
     ./mvnw clean package
     ```
-   Или для Windows:
+   или для Windows:
     ```cmd
     mvnw.cmd clean package
     ```
@@ -59,7 +57,7 @@
    ```shell
    ./mvnw spring-boot:run
    ``` 
-   Или для Windows:
+   или для Windows:
     ```cmd
     mvnw.cmd spring-boot:run
     ```
