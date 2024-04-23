@@ -13,7 +13,6 @@ import org.springframework.shell.standard.ShellOption;
 import java.io.IOException;
 import java.util.concurrent.atomic.AtomicInteger;
 
-// Utility conventions https://pubs.opengroup.org/onlinepubs/9699919799/basedefs/V1_chap12.html
 @ShellComponent
 public class StationsAPICommands {
 
