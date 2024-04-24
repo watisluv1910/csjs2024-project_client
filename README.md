@@ -43,17 +43,12 @@
     ```shell
    git clone https://github.com/watisluv1910/csjs2024-project_service.git
     ```
+   
+3. Установить [Java](https://www.oracle.com/java/technologies/downloads/) >=21 (если это необходимо).
 
-3. Установить [Java Development Kit](https://www.oracle.com/java/technologies/downloads/) > v21.0.0, если таковой не имеется.
-4. Запустить следующую команду в **корневой директории** проекта:
-    ```shell
-    ./mvnw clean package
-    ```
-   или для Windows:
-    ```cmd
-    mvnw.cmd clean package
-    ```
-5. Для запуска Spring Shell и дальнейшей работы в нём необходимо выполнить команду 
+4. Для запуска Spring Shell и дальнейшей работы в нём необходимо выполнить команду 
+запустить следующую команду в **корневой директории** проекта
+   <br>Для Unix-подобных систем:
    ```shell
    ./mvnw spring-boot:run
    ``` 
