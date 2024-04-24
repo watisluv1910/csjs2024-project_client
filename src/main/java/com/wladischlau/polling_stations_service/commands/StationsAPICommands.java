@@ -82,7 +82,7 @@ public class StationsAPICommands {
             @ShellOption(value = {"--region-codes", "-r"}, defaultValue = ShellOption.NULL, arity = 1) String regionCodes,
             @ShellOption(value = {"--station-numbers", "-s"}, defaultValue = ShellOption.NULL, arity = 1) String stationNumbers,
             @ShellOption(value = {"--by-date-exclusive", "-d"}, defaultValue = ShellOption.NULL, arity = 1) String date,
-            @ShellOption(value = {"--path", "-p"}, defaultValue = "./data/report.txt", arity = 1) String path
+            @ShellOption(value = {"--path", "-p"}, defaultValue = "./report.txt", arity = 1) String path
     ) {
         StationList foundStations;
         StringBuilder result = new StringBuilder();
